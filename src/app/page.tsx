@@ -14,7 +14,7 @@ export default function Home() {
           </h1>
         </div>
         <form>
-          <input type="text" placeholder="Type your name..." />
+          <input type="text" placeholder="Type your name..." value={inputVal} onChange={(e) => setInputVal(e.target.value)} />
           <button type="submit">Predict data</button>
         </form>
       </div>
