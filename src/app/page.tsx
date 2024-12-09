@@ -10,6 +10,7 @@ export default function Home() {
         </div>
         <form>
           <input type="text" placeholder="Type your name..." />
+          <button type="submit">Predict data</button>
         </form>
       </div>
   )}
