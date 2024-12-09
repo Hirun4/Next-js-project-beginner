@@ -19,7 +19,7 @@ interface Params {
     params: { name: string};
 }
 
-export default async function Home({params}: Params) {
+export default async function Page({params}: Params) {
 
     const ageData = getPredictedAge(params.name);
     const genderData = getPredictedGender(params.name);
