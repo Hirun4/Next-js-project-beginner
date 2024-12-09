@@ -4,13 +4,13 @@ const getPredictedAge = async (name:string) => {
     return res.json();
 }
 
-const getPredictedAge = async (name:string) => {
-    const res= await fetch(`http://api.agify.io/?name=${name}`);
+const getPredictedGender = async (name:string) => {
+    const res= await fetch(`http://api.genderize.io/?name=${name}`);
     return res.json();
 }
 
-const getPredictedAge = async (name:string) => {
-    const res= await fetch(`http://api.agify.io/?name=${name}`);
+const getPredictedCountry = async (name:string) => {
+    const res= await fetch(`http://api.nationalize.io/?name=${name}`);
     return res.json();
 }
 
