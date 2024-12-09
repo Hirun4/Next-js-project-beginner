@@ -31,7 +31,12 @@ export default async function Home({params}: Params) {
         countryData,
     ])
     return (
-        <main className="flex flex-col gap-8 row-start-2 items-center sm:items-start">
-            {params.name}
-        </main>
+     <div>
+        <div>
+            <div>Personal Info</div>
+            <div>Age: {age?.age}</div>
+            <div>Gender: {gender?.gender}</div>
+            <div>Country: {country?.country[0]?.country_id}</div>
+        </div>
+     </div>
     )}
