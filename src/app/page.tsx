@@ -2,5 +2,14 @@
 
 export default function Home() {
   return (
-      <div></div>
+      <div>
+        <div>
+          <h1>
+            Enter your name
+          </h1>
+        </div>
+        <form>
+          <input type="text" placeholder="Type your name..." />
+        </form>
+      </div>
   )}
